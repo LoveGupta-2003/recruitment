@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Roboto+Slab&display=swap');
+
+body {
+    background-color: rgb(240, 240, 236);
+}
+
+.container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    /* background-color: burlywood; */
+}
+
+.logo {
+    width: 75px;
+    border: 2px solid red;
+    margin: 0rem 2rem;
+}
+
+/* .navb{
+    background-color: aquamarine;
+} */
+
+.navb ul {
+    display: flex;
+    list-style: none;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.navb ul li {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.navb ul li:hover {
+    border-radius: 23px;
+    /* padding: auto; */
+    /* margin: auto; */
+    border: 2px solid black;
+    background-color: lightcyan;
+}
+
+.btn {
+    background-color: lightskyblue;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 6rem;
+    height: 2rem;
+    margin: 0rem 4.5rem
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+.sec {
+    background-color: cadetblue;
+    padding: 1rem 3rem;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+}
+
+.sec p {
+    font-weight: bold;
+}
+
+.sec2 {
+    background-color: lightgray;
+    border: 2px solid green;
+    padding: 2rem;
+    border-radius: 25px;
+    height: 13rem;
+    margin-top: 5rem;
+
+
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.why {
+    width: 20rem;
+    height: 15rem;
+    margin: -11rem 30rem;
+    float: right;
+}
+
+.choose h2 {
+    margin: 0rem 1.5rem;
+}
+
+.choose ul li {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec3 {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.category {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.pictext {
+    margin-top: 10px;
+}
+
+.se {
+    width: 12rem;
+    height: 8rem;
+}
+
+.sec4 {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.sec4 ol li {
+    margin: 1rem;
+    padding: .5rem;
+}
+
+.sec5 {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.recruiter {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.footer-links{
+    display: flex;
+}
+
+.contact-info {
+    font-weight: bold;
+    text-align: center;
+}
